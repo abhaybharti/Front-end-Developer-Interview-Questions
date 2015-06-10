@@ -24,8 +24,17 @@ This file contains a number of front-end interview questions that can be used wh
 
 * What did you learn yesterday/this week?
 * What excites or interests you about coding?
+  
+  *The idea that I can create applications that make my life easier, and in the process posibly impact people's lives.*
 * What is a recent technical challenge you experienced and how did you solve it?
 * What UI, Security, Performance, SEO, Maintainability or Technology considerations do you make while building a web application or site?
+
+	*UI: I make sure to use a css framework to have a base I can start styling components from. If the project is rich in UI I make sure to use either a MVC framework like angular or a UI library like react.*
+	
+	*Security: I make sure no sensible information is visible on the client side to third party.*
+	
+	*Performance: for styling, I use sass to import all the dependent styles into 1 file, and minify it so that only 1 file has to be loaded by the browser. I also use browserify to bundle all the javascript files together and uglify them for the same purpose.*
+	
 * Talk about your preferred development environment.
 * Which version control systems are you familiar with?
 * Can you describe your workflow when you create a web page?
